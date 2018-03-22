@@ -19,8 +19,8 @@ export default class Header extends Component {
       			<div className='header-bottom'>
       				<div className='header-bottom-content'>
       					<NavLink to={'/'}>Contact</NavLink>
-      					<NavLink to={'/'}>Projects</NavLink>
-      					<NavLink to={'/'}>CV</NavLink>
+      					<NavLink to={'/projects'}>Projects</NavLink>
+      					<NavLink to={'/cv'}>CV</NavLink>
       					<NavLink to={'/'}>Language</NavLink>
       				</div>
       			</div>
