@@ -1,0 +1,50 @@
+.header-container {
+	width: 100%;
+	background: green;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.header-box {
+	width: 95%;
+	/*height: 80px;*/
+	background-color: orange !important;
+}
+
+.header-top {
+	background: yellow;
+	height: 40px;
+	border-bottom: solid 1px black;
+}
+
+.header-bottom {
+	background: red;
+	height: 40px;
+}
+
+.header-top-content {
+	height: 100%;
+	width: 210px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+.header-bottom-content {
+	float: right;
+	height: 100%;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.header-container a {
+	color: #d0d4dd;
+	text-decoration: none;
+}
+
+.header-container a:hover {
+	color: #b3b5bc;
+}
