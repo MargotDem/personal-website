@@ -1,0 +1,49 @@
+.project-container {
+	width: 500px;
+	/*background: green;*/
+	display: flex;
+	/*color: #d0d4dd;*/
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+
+.project-pic-container {
+	/*background: yellow;*/
+}
+
+.project-pic {
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-content {
+	padding-left: 20px;
+	text-shadow: 0 2px 8px rgba(34,34,34,.4);
+}
+
+.project-content h3 {
+	font-family: Nunito;
+}
+
+.project-content p {
+	padding-left: 10px;
+	font-family: Open Sans;
+}
+
+@media (max-width: 425px) {
+	.project-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.project-content {
+		padding-left: 0px;
+	}
+	.project-content p {
+		padding-left: 0px;
+	}
+	.project-content h3 {
+		text-align: center;
+	}
+}
