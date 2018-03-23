@@ -8,3 +8,21 @@ html {
 * {
   /*background: #2b374f;*/
 }
+
+.my-button {
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	font-size: 20px;
+	font-family: Nunito;
+	font-weight: 700;
+	color: #2b374f;
+	background: #0ba343;
+	border: none;
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.my-button:hover {
+	cursor: pointer;
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.3);
+}

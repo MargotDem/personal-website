@@ -5,23 +5,52 @@ import { NavLink } from 'react-router-dom'
 import './styles/header.css'
 
 export default class Header extends Component {
+  componentDidMount () {
+    this.timer = setInterval(function () {
+      if (window.pageYOffset > 700) {
+        let elements = document.getElementsByClassName('header-link')
+        for (let i=0; i<elements.length; i++) {
+          elements[i].style.color = '#4d628e'
+          elements[i].style.fontWeight = 'bold'
+        }
+        document.getElementById('header-top').style.borderBottom = 'solid 2px #4d628e'
+      } else {
+        let elements = document.getElementsByClassName('header-link')
+        for (let i=0; i<elements.length; i++) {
+          elements[i].style.color = '#d0d4dd'
+          elements[i].style.fontWeight = 'normal'
+        }
+        document.getElementById('header-top').style.borderBottom = 'solid 2px #d0d4dd'
+      }
+
+    }, 10)
+  }
+
+  componentWillUnmount () {
+    clearInterval(this.timer)
+  }
+
+  handleClick () {
+      window.scroll({ top: 1500, behavior: 'smooth' });
+  }
+  
   render () {
     return (
     	<div className='header-container'>
       		<div className='header-box'>
-      			<div className='header-top'>
+      			<div id='header-top' className='header-top header-link'>
       				<div className='header-top-content'>
-      					<NavLink to={'/'}>Margot de Maulmont</NavLink>
-      					<NavLink to={'/'}><i className='fa fa-github' /></NavLink>
-      					<NavLink to={'/'}><i className='fa fa-linkedin' /></NavLink>
+      					<NavLink className='header-link' to={'/'}>Margot de Maulmont</NavLink>
+      					<a className='header-link' target='_blank' rel='noopener noreferrer' href='https://github.com/MargotDem'><i className='fa fa-github' /></a>
+      					<a className='header-link' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/margot-de-maulmont/'><i className='fa fa-linkedin' /></a>
       				</div>
       			</div>
       			<div className='header-bottom'>
       				<div className='header-bottom-content'>
-      					<NavLink to={'/'}>Contact</NavLink>
-      					<NavLink to={'/projects'}>Projects</NavLink>
-      					<NavLink to={'/cv'}>CV</NavLink>
-      					<NavLink to={'/'}>Language</NavLink>
+      					<span className='header-link' href='' onClick={() => {this.handleClick()}}>Contact</span>
+      					<NavLink className='header-link' to={'/projects'}>Projects</NavLink>
+      					<NavLink className='header-link' to={'/cv'}>CV</NavLink>
+      					<NavLink className='header-link' to={'/'}>Language</NavLink>
       				</div>
       			</div>
       		</div>

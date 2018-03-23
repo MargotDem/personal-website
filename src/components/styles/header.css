@@ -42,13 +42,22 @@
 	padding-top: 5px;
 }
 
-.header-container a {
+.header-container a, span {
 	color: #d0d4dd;
 	text-decoration: none;
 }
 
 .header-container a:hover {
-	color: #b8bac1;
+	color: #b8bac1 !important;
+}
+
+.header-container span:hover {
+	cursor: pointer;
+	color: #b8bac1 !important;
+}
+
+.header-link {
+	transition: 0.5s;
 }
 
 
