@@ -10,7 +10,7 @@ html {
 }
 
 .my-button {
-	width: 100px;
+	/*width: 100px;*/
 	height: 40px;
 	border-radius: 4px;
 	font-size: 20px;
@@ -21,6 +21,7 @@ html {
 	border: none;
 	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
 	outline: none;
+	padding: 0px 12px;
 }
 
 .my-button:hover {

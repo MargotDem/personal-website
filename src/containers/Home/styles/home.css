@@ -1,0 +1,29 @@
+.down-button-container {
+	position: fixed;
+	bottom: 5px;
+	z-index: 500;
+	font-size: 40px;
+	color: #d20e32;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.down-button {
+	border-radius: 50px;
+	border: solid 2px #d20e32;
+	width: 45px;
+	height: 45px;
+	padding-left: 8px;
+	padding-top: 2px;
+	transition: 0.7s;
+}
+
+.down-button:hover {
+	cursor: pointer;
+}
+
+.down-button-hide {
+	opacity: 0;
+	visibility: hidden;
+}

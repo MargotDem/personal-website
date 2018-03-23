@@ -6,6 +6,8 @@ import Main from './Main'
 import About from './About'
 import Contact from '../../components/Contact'
 
+import './styles/home.css'
+
 export default class Home extends Component {
 	constructor(props) {
 		super(props)
@@ -15,11 +17,11 @@ export default class Home extends Component {
 	}
 
 	handleMouseOver () {
-		document.getElementById('down-button').style.transform = "translate(0px, 6px)"
+		document.getElementById('down-button').style.transform = "translate(0px, 4px)"
 	}
 
 	handleMouseOut () {
-		document.getElementById('down-button').style.transform = "translate(0px, -6px)"
+		document.getElementById('down-button').style.transform = "translate(0px, -4px)"
 	}
 
 	handleClick () {

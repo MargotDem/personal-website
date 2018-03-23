@@ -8,6 +8,7 @@
 	font-size: 17px;
 	font-family: Nunito;
 	z-index: 500;
+	text-shadow: 0 2px 8px rgba(34,34,34,.2);
 }
 
 .header-box {

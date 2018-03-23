@@ -24,12 +24,13 @@
 	font-family: Open Sans;
 	color: #b8bac1;
 	line-height: 33px;
+	text-shadow: 0 2px 8px rgba(34,34,34,.4);
 }
 
 .main-photo-container {
 	position: absolute;
 	bottom: 120px;
-	right: 100px;
+	right: 110px;
 }
 
 .main-photo {
