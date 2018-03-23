@@ -13,7 +13,8 @@ export default class Contact extends Component {
     			<textarea name='message' placeholder='Your message'></textarea>
     			<button type='submit' className='my-button'>Send</button>
     		</form>
-      	</div>
+        <div className='footer'>Made with <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>ReactJS</a></div>
+      </div>
     )
   }
 }
