@@ -17,11 +17,11 @@ export default class Home extends Component {
 	}
 
 	handleMouseOver () {
-		document.getElementById('down-button').style.transform = "translate(0px, 4px)"
+		document.getElementById('down-button').style.transform = 'translate(0px, 4px)'
 	}
 
 	handleMouseOut () {
-		document.getElementById('down-button').style.transform = "translate(0px, -4px)"
+		document.getElementById('down-button').style.transform = 'translate(0px, -4px)'
 	}
 
 	handleClick () {

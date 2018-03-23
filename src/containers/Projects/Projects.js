@@ -16,12 +16,14 @@ export default class Projects extends Component {
 	      			<div className='projects-perso'><span className='projects-perso-P'>P</span>ersonal projects</div>
 	      			<div className='projects-top-content'>
 	      				<Project
+	      					id={1}
 	      					name='Open Carte Comptable'
 	      					url='http://opencartecomptable.fr/'
 	      					description='description arzegt azrgehtryt nzteyrhtzt atezrht zefzgqrshtd ffze tsy(ru§it azretrg azegr zer er aerzteth zreg'
 	      					picUrl={projectOcc}
 	      				/>
 	      				<Project
+	      					id={2}
 	      					name='Lexicode'
 	      					url='https://lexicode.herokuapp.com/'
 	      					description='zerghtjyehrtyt ouihgv oihgu'
@@ -34,6 +36,7 @@ export default class Projects extends Component {
 	      				<div className='projects-contributed'><span className='projects-contributed-P'>P</span>rojects I’ve contributed to</div>
 	      				<div className='projects-bottom-content'>
 	      					<Project
+	      						id={3}
 		      					name='Brother Tongue'
 		      					url='https://brothertongue.com/#/'
 		      					description='ezfgr aeztr ergttdhg tezr taergzt'
