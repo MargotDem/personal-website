@@ -20,6 +20,7 @@ html {
 	background: #0ba343;
 	border: none;
 	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	outline: none;
 }
 
 .my-button:hover {

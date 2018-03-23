@@ -31,7 +31,7 @@ export default class Header extends Component {
   }
 
   handleClick () {
-      window.scroll({ top: 1500, behavior: 'smooth' });
+      document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth'})
   }
   
   render () {

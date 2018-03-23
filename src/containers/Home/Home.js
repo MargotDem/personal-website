@@ -4,7 +4,7 @@ import Waypoint from 'react-waypoint'
 
 import Main from './Main'
 import About from './About'
-import Contact from './Contact'
+import Contact from '../../components/Contact'
 
 export default class Home extends Component {
 	constructor(props) {
