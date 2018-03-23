@@ -26,28 +26,40 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 200px;
+	margin-top: 160px;
 }
 
 .about-section {
 	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .about-icon {
 	font-size: 40px;
 	text-align: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
 }
 
 .about-icon-briefcase {
 	color: #32b5e5;
+	border: 2px solid #32b5e5;
+	padding-top: 5px;
 }
 
 .about-icon-code {
 	color: #edcb10;
+	border: 2px solid #edcb10;
+	padding-top: 3px;
 }
 
 .about-icon-heart {
 	color: #d20e32;
+	border: 2px solid #d20e32;
+	padding-top: 7px;
 }
 
 .contact-container {
