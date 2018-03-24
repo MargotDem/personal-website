@@ -1,11 +1,10 @@
 .contact-container {
 	background: linear-gradient(0deg,#cbd0d6,#eaecef);
 	height: 900px;
-  	margin-top:-50px;
-  	justify-content: center;
+	margin-top:-50px;
+  justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	/*position: relative;*/
 }
 
 .contact-form {
@@ -13,7 +12,6 @@
 	color: #2b374f;
 	display: flex;
 	flex-direction: column;
-	/*justify-content: center;*/
 	align-items: center;
 }
 
@@ -25,7 +23,6 @@
 	margin-bottom: 50px;
 	outline: none;
 	border-bottom: solid 2px #b8bfc6;
-	/*border-radius: 4px;*/
 	height: 30px;
 	width: 200px;
 	font-size: 16px;
@@ -67,6 +64,7 @@
 		width: 250px;
 		height: 200px;
 	}
+	
 	.contact-message {
 		font-size: 30px;
 	}

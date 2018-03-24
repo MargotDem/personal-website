@@ -1,14 +1,8 @@
 .project-container {
 	width: 500px;
-	/*background: green;*/
 	display: flex;
-	/*color: #d0d4dd;*/
 	text-decoration: none;
 	margin-bottom: 40px;
-}
-
-.project-pic-container {
-	/*background: yellow;*/
 }
 
 .project-pic {
@@ -39,10 +33,6 @@
 .project-content p {
 	padding-left: 10px;
 	font-family: Open Sans;
-}
-
-.project-github {
-	/*z-index: 500;*/
 }
 
 .project-github:hover {

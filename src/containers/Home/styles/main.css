@@ -57,6 +57,7 @@
 	.main-container {
 		height: 100vh !important;
 	}
+
 	.main-message {
 		position: absolute;
 		top: 120px;
@@ -72,11 +73,13 @@
 		width: 260px;
 		line-height: 28px;
 	}
+
 	.main-photo-container {
 		position: absolute;
 		bottom: 60px;
 		right: 10px;
 	}
+
 	.main-photo {
 		width: 150px;
 	}

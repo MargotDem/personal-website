@@ -4,12 +4,12 @@
 	transform:skew(0deg,-5deg);
 	-ms-transform:skew(0deg,-10deg);
 	-webkit-transform:skew(0deg,-4deg);
-  	margin-top:-50px;
+  margin-top:-50px;
 	justify-content: center;
 	display: flex;
-  	font-family: Open Sans;
-  	font-size: 20px;
-  	color: #2b374f;
+	font-family: Open Sans;
+	font-size: 20px;
+	color: #2b374f;
 }
 
 .about-content {
@@ -66,6 +66,7 @@
 	.about-container {
 		height: 2000px;
 	}
+
 	.about-content {
 		margin-top: 100px;
 		justify-content: center;

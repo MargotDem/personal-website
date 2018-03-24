@@ -9,7 +9,6 @@
 .cv-bottom {
 	background: whitesmoke;
 	height: 400px;
-/*	color: #2b374f;*/
 	transform:skew(0deg,-5deg);
 	-ms-transform:skew(0deg,-10deg);
 	-webkit-transform:skew(0deg,-4deg);
@@ -20,9 +19,6 @@
 	transform:skew(0deg,5deg);
 	-ms-transform:skew(0deg,10deg);
 	-webkit-transform:skew(0deg,4deg);
-	/*position: relative;
-	display: flex;
-	justify-content: center;*/
 }
 
 .cv-img {

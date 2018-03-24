@@ -64,10 +64,10 @@
 
 @media (max-width: 425px) {
 	.header-top-content {
-	width: 100%;
-}
+		width: 100%;
+	}
 
-.header-bottom-content {
-	width: 100%;
-}
+	.header-bottom-content {
+		width: 100%;
+	}
 }
