@@ -1,10 +1,5 @@
 .about-container {
-	background: whitesmoke;
 	height: 870px;
-	transform:skew(0deg,-5deg);
-	-ms-transform:skew(0deg,-10deg);
-	-webkit-transform:skew(0deg,-4deg);
-  margin-top:-50px;
 	justify-content: center;
 	display: flex;
 	font-family: Open Sans;

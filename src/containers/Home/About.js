@@ -22,7 +22,7 @@ const PARAGRAPHS = [
 export default class About extends Component {
   render () {
     return (
-      <div className='about-container'>
+      <div className='middle-container about-container'>
         <div className='about-content'>
           {
             PARAGRAPHS.map((item) => {

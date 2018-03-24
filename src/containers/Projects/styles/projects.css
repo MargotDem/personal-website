@@ -1,20 +1,13 @@
 .projects-top-container {
 	height: 600px;
-	background: linear-gradient(-45deg,#4d628e,#2b374f);
-	position: relative;
 	color: #d0d4dd;
 	display: flex;
 	justify-content: center;
 }
 
 .projects-bottom-container {
-	background: whitesmoke;
 	height: 600px;
 	color: #2b374f;
-	transform:skew(0deg,-5deg);
-	-ms-transform:skew(0deg,-10deg);
-	-webkit-transform:skew(0deg,-4deg);
-  	margin-top:-50px;
 }
 
 .projects-bottom-wrapper {

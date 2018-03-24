@@ -7,7 +7,7 @@ import './styles/main.css'
 export default class Main extends Component {
   render () {
     return (
-      <div className='main-container'>
+      <div className='top-container main-container'>
         <div className='main-message'>
           <span>
             <span className='main-H'>H</span>ello

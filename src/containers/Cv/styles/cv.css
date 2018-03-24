@@ -1,18 +1,11 @@
 .cv-top {
 	height: 600px;
-	background: linear-gradient(-45deg,#4d628e,#2b374f);
-	position: relative;
 	display: flex;
 	justify-content: center;
 }
 
 .cv-bottom {
-	background: whitesmoke;
 	height: 400px;
-	transform:skew(0deg,-5deg);
-	-ms-transform:skew(0deg,-10deg);
-	-webkit-transform:skew(0deg,-4deg);
-  	margin-top:-50px;
 }
 
 .cv-bottom-wrapper {

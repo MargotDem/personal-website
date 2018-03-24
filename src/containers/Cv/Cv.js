@@ -41,14 +41,14 @@ export default class Cv extends Component {
           <img alt='cv-modal' src={cvFr} className={'cv-modal' + (showModal ? ' cv-modal-show' : '')} />
         </div>
 
-        <div className='cv-top'>
+        <div className='top-container cv-top'>
           <img alt='cv' src={cvFr} className='cv-img' onClick={() => { this.handleOpenClick() }} />
           <a href={cvFrPdf} download='CV Margot de Maulmont' className='cv-download-button'>
             <i className='fa fa-download' />
           </a>
         </div>
 
-        <div className='cv-bottom'>
+        <div className='middle-container cv-bottom'>
           <div className='cv-bottom-wrapper' />
         </div>
 

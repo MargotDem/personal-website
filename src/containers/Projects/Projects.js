@@ -42,7 +42,7 @@ export default class Projects extends Component {
   render () {
     return (
       <div>
-        <div className='projects-top-container'>
+        <div className='top-container projects-top-container'>
           <div className='projects-perso'>
             <span className='projects-perso-P'>P</span>ersonal projects
           </div>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
             }
           </div>
         </div>
-        <div className='projects-bottom-container'>
+        <div className='middle-container projects-bottom-container'>
           <div className='projects-bottom-wrapper'>
             <div className='projects-contributed'>
               <span className='projects-contributed-P'>P</span>rojects I’ve contributed to
