@@ -2,6 +2,8 @@ import React from 'react'
 
 import BaseContainer from '../containers/BaseContainer'
 import { NavLink } from 'react-router-dom'
+import i18n from '../lib/i18n'
+import 'react-dropdown/style.css'
 
 import './styles/header.css'
 
@@ -34,6 +36,10 @@ export default class Header extends BaseContainer {
     document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })
   }
 
+  changeLanguage () {
+    console.log('HEYYYY')
+  }
+
   renderMe (t) {
     return (
       <div className='header-container'>
@@ -64,7 +70,15 @@ export default class Header extends BaseContainer {
               <span className='header-link' href='' onClick={() => { this.handleClick() }}>Contact</span>
               <NavLink className='header-link' to={'/projects'}>{t('header.projects')}</NavLink>
               <NavLink className='header-link' to={'/cv'}>CV</NavLink>
-              <NavLink className='header-link' to={'/'}>{t('header.language')}</NavLink>
+              <div className='dropdown'>
+                <a className='dropdown-toggle header-dropdown header-link' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                  {t('header.language')}
+                </a>
+                <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                  <span className='dropdown-item' href='' onClick={() => { i18n.changeLanguage('en') }}>English</span>
+                  <span className='dropdown-item' href='' onClick={() => { i18n.changeLanguage('fr') }}>French</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

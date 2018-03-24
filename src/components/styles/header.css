@@ -61,6 +61,18 @@
 	transition: 0.5s;
 }
 
+.header-dropdown {
+	background: none;
+	border: none;
+	color: #d0d4dd;
+	padding: 0px;
+	transition: 0.5s;
+}
+
+.dropdown-item {
+	color: #2b374f !important;
+}
+
 
 @media (max-width: 425px) {
 	.header-top-content {

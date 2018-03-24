@@ -30,7 +30,7 @@ export default class Project extends Component {
           <img id={'project-pic-' + id} className='project-pic' src={picUrl} alt='project-snapshot' />
         </div>
         <div className='project-content'>
-          <h3 id={'project-title-' + id} className='project-title'>
+          <h5 id={'project-title-' + id} className='project-title'>
             {name}
             { githubUrl && ' · ' }
             {
@@ -38,7 +38,7 @@ export default class Project extends Component {
                 <i className='fa fa-github project-github' />
               </a>
             }
-          </h3>
+          </h5>
           <p id={'project-description-' + id} className='project-description'>
             {description}
           </p>

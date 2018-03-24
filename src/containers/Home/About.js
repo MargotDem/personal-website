@@ -39,7 +39,7 @@ export default class About extends BaseContainer {
             })
           }
           <div className='about-button-container'>
-            <NavLink to={'/projects'}><button type='submit' className='my-button'>See portfolio</button></NavLink>
+            <NavLink to={'/projects'}><button type='submit' className='my-button'>{t('home.seePortfolio')}</button></NavLink>
           </div>
         </div>
       </div>

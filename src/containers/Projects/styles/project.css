@@ -5,6 +5,16 @@
 	margin-bottom: 40px;
 }
 
+.projects-top-container a {
+	text-decoration: none;
+
+}
+
+.projects-bottom-container a {
+	text-decoration: none;
+
+}
+
 .project-pic {
 	width: 140px;
 	height: 140px;
@@ -26,7 +36,7 @@
 	text-shadow: 0 2px 8px rgba(34,34,34,.4);
 }
 
-.project-content h3 {
+.project-content h5 {
 	font-family: Nunito;
 }
 
