@@ -26,7 +26,7 @@ export default class Project extends Component {
 				onMouseOut={() => {this.handleMouseOut(id)}}
 			>
 	      		<div className='project-pic-container'>
-	      			<img id={'project-pic-' + id} className='project-pic' src={picUrl} />
+	      			<img id={'project-pic-' + id} className='project-pic' src={picUrl} alt='project-snapshot' />
 	      		</div>
 	      		<div className='project-content'>
 	      			<h3 id={'project-title-' + id} className='project-title'>{name}</h3>
