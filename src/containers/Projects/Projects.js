@@ -21,6 +21,7 @@ export default class Projects extends Component {
 	      					url='http://opencartecomptable.fr/'
 	      					description='description arzegt azrgehtryt nzteyrhtzt atezrht zefzgqrshtd ffze tsy(ru§it azretrg azegr zer er aerzteth zreg'
 	      					picUrl={projectOcc}
+	      					githubUrl={'https://github.com/MargotDem/opencartecomptable'}
 	      				/>
 	      				<Project
 	      					id={2}
@@ -28,6 +29,7 @@ export default class Projects extends Component {
 	      					url='https://lexicode.herokuapp.com/'
 	      					description='zerghtjyehrtyt ouihgv oihgu'
 	      					picUrl={projectLexicode}
+	      					githubUrl={'https://github.com/MargotDem/lexicode'}
 	      				/>
 	      			</div>
 	      		</div>

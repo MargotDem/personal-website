@@ -16,11 +16,12 @@ export default class Project extends Component {
 	}
 	
 	render () {
-		let { id, name, url, description, picUrl } = this.props
+		let { id, name, url, description, picUrl, githubUrl } = this.props
 		return (
 			<a
 				className='project-container'
-				href={url} target='_blank'
+				href={url}
+				target='_blank'
 				rel='noopener noreferrer'
 				onMouseOver={() => {this.handleMouseOver(id)}}
 				onMouseOut={() => {this.handleMouseOut(id)}}
@@ -29,7 +30,15 @@ export default class Project extends Component {
 	      			<img id={'project-pic-' + id} className='project-pic' src={picUrl} alt='project-snapshot' />
 	      		</div>
 	      		<div className='project-content'>
-	      			<h3 id={'project-title-' + id} className='project-title'>{name}</h3>
+	      			<h3 id={'project-title-' + id} className='project-title'>
+	      				{name}
+	      				{ githubUrl && ' · ' }
+	      				{
+	      					githubUrl && <a href={githubUrl} target='_blank' rel='noopener noreferrer'>
+	      						<i className='fa fa-github project-github' />
+	      					</a>
+	      				}
+	      			</h3>
 	      			<p id={'project-description-' + id} className='project-description'>{description}</p>
 	      		</div>
       		</a>

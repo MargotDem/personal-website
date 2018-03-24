@@ -41,6 +41,14 @@
 	font-family: Open Sans;
 }
 
+.project-github {
+	/*z-index: 500;*/
+}
+
+.project-github:hover {
+	color: #32b5e5;
+}
+
 @media (max-width: 425px) {
 	.project-container {
 		flex-wrap: wrap;
