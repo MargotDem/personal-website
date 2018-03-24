@@ -2,25 +2,23 @@ import React, { Component } from 'react'
 
 import { I18n } from 'react-i18next'
 
-/*
-The BaseContainer component implements the i18n logic from react-i18next
-Every component rendering text that needs translation should extend BaseContainer like so:
-
-class TranslatableComponent extends BaseContainer {
-  renderMe(t) {
-    return (
-      <div>
-        {t('nameOfComponent.keyName')}
-      </div>
-    )
-  }
-}
-
-Where nameOfComponent is an object in the public/locales/{language}/translation.json files,
-and keyName is the key of nameOfComponent that references the translated text to be rendered.
-*/
-
 export default class BaseContainer extends Component {
+  componentWillMount () {
+    this.updateTitle(this.props)
+  }
+
+  componentWillReceiveProps (nextProps) {
+    this.updateTitle(nextProps)
+  }
+
+  updateTitle (props) {
+    // doing this here because couldn't fix the bug for home page -_-"
+    document.title = 'Margot de Maulmont'
+    if (props.dynamicTitle !== undefined && props.dynamicTitle !== document.title) {
+      document.title = props.dynamicTitle
+    }
+  }
+
   render () {
     return (
       <I18n>

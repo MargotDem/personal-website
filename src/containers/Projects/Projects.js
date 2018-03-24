@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
+import BaseContainer from '../BaseContainer'
 import Contact from '../../components/Contact'
 import Project from './Project'
 import projectOcc from '../../img/project-occ.png'
@@ -38,7 +39,7 @@ const CONTRIBUTED_PROJECTS = [
   }
 ]
 
-export default class Projects extends Component {
+export default class Projects extends BaseContainer {
   render () {
     return (
       <div>

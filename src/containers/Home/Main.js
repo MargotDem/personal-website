@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+
+import BaseContainer from '../BaseContainer'
 
 import pic from '../../img/pic.jpg'
 
 import './styles/main.css'
 
-export default class Main extends Component {
+export default class Main extends BaseContainer {
   render () {
     return (
       <div className='top-container main-container'>

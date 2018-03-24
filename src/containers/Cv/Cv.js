@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 
+import BaseContainer from '../BaseContainer'
 import Contact from '../../components/Contact'
 import cvFr from '../../img/cv-fr.png'
 import cvFrPdf from '../../img/cv-fr.pdf'
 
 import './styles/cv.css'
 
-export default class Cv extends Component {
+export default class Cv extends BaseContainer {
   constructor (props) {
     super(props)
     this.state = ({

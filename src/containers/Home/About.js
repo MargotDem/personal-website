@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
+
+import BaseContainer from '../BaseContainer'
 
 import { NavLink } from 'react-router-dom'
 
@@ -19,7 +21,7 @@ const PARAGRAPHS = [
   }
 ]
 
-export default class About extends Component {
+export default class About extends BaseContainer {
   render () {
     return (
       <div className='middle-container about-container'>
