@@ -69,8 +69,22 @@
 	transition: 0.5s;
 }
 
+.dropdown:hover {
+	cursor: pointer;
+}
+
 .dropdown-item {
 	color: #2b374f !important;
+}
+
+.transition-out {
+	height: 0px;
+	transition: 0.7s;
+	background: linear-gradient(0deg,#2b374f,#1c2538);
+}
+
+.transition-out-show {
+	height: 100vh;
 }
 
 

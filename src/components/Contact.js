@@ -15,7 +15,7 @@ export default class Contact extends BaseContainer {
           <textarea name='message' placeholder={t('contact.yourMessage')} />
           <button type='submit' className='my-button'>{t('contact.send')}</button>
         </form>
-        <div className='footer'>
+        <div className='my-footer'>
           {t('contact.madeWith')}
           &nbsp;
           <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>ReactJS</a>

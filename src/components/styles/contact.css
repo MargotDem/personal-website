@@ -1,6 +1,6 @@
 .contact-container {
 	background: linear-gradient(0deg,#cbd0d6,#eaecef);
-	height: 900px;
+	height: 860px;
 	margin-top:-50px;
   justify-content: center;
 	display: flex;
@@ -43,7 +43,7 @@
 	color: #2b374f;
 }
 
-.footer {
+.my-footer {
 	font-family: Nunito;
 	color: #767c87;
 	z-index: 500;
@@ -52,7 +52,7 @@
 	margin-top: 180px;
 }
 
-.footer a {
+.my-footer a {
 	color: #767c87;
 	font-weight: bold;
 	text-decoration: none;
@@ -64,7 +64,7 @@
 		width: 250px;
 		height: 200px;
 	}
-	
+
 	.contact-message {
 		font-size: 30px;
 	}

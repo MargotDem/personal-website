@@ -1,0 +1,18 @@
+.page-transition-in {
+  transition: 0.5s;
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(-45deg,#4d628e,#2b374f);
+  background: linear-gradient(0deg,#2b374f,#1c2538);
+  z-index: 450;
+}
+
+.page-transition-in-hide {
+  visibility: hidden;
+  opacity: 0;
+}

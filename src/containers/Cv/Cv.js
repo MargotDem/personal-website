@@ -15,6 +15,10 @@ export default class Cv extends BaseContainer {
     })
   }
 
+  componentDidMount () {
+    document.title = 'CV · Margot de Maulmont'
+  }
+
   handleOpenClick () {
     this.setState({
       showModal: true

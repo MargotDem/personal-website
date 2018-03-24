@@ -2,8 +2,6 @@ import React from 'react'
 
 import BaseContainer from '../BaseContainer'
 
-import { NavLink } from 'react-router-dom'
-
 import './styles/about.css'
 
 const PARAGRAPHS = [
@@ -22,6 +20,22 @@ const PARAGRAPHS = [
 ]
 
 export default class About extends BaseContainer {
+  handleNavClick (page) {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+
+    document.getElementById('transition-out').className = 'transition-out transition-out-show'
+
+    setTimeout(function () {
+      document.getElementById('transition-out').className = 'transition-out'
+      window.location = ('/#' + page)
+      // document.getElementById('testtt').submit()
+    }, 1000)
+  }
+
   renderMe (t) {
     return (
       <div className='middle-container about-container'>
@@ -39,7 +53,7 @@ export default class About extends BaseContainer {
             })
           }
           <div className='about-button-container'>
-            <NavLink to={'/projects'}><button type='submit' className='my-button'>{t('home.seePortfolio')}</button></NavLink>
+            <button className='my-button' onClick={() => { this.handleNavClick('projects') }}>{t('home.seePortfolio')}</button>
           </div>
         </div>
       </div>

@@ -16,6 +16,10 @@ export default class Home extends Component {
     })
   }
 
+  componentDidMount () {
+    document.title = 'Margot de Maulmont'
+  }
+
   handleMouseOver () {
     document.getElementById('down-button').style.transform = 'translate(0px, 6px)'
   }

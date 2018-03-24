@@ -40,13 +40,17 @@ const CONTRIBUTED_PROJECTS = [
 ]
 
 export default class Projects extends BaseContainer {
+  componentDidMount () {
+    document.title = 'Projects · Margot de Maulmont'
+  }
+
   renderMe (t) {
     return (
       <div>
         <div className='top-container projects-top-container'>
           <div className='projects-perso'>
             <span className='projects-perso-P'>P</span>
-              {t('projects.personal')}
+            {t('projects.personal')}
           </div>
           <div className='projects-top-content'>
             {

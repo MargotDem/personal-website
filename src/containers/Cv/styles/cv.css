@@ -24,7 +24,7 @@
 
 .cv-img:hover {
 	cursor: pointer;
-	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.25);
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
 }
 
 .cv-download-button {
@@ -37,7 +37,7 @@
 	border-radius: 50%;
 	width: 50px;
 	height: 50px;
-	padding-top: 6px;
+	padding-top: 2px;
 	padding-left: 9px;
 	transition: 0.7s;
 	z-index: 500;
@@ -93,24 +93,20 @@
 
 .cv-modal-close {
 	z-index: 1000;
-	font-size: 30px;
+	font-size: 40px;
 	position: fixed;
 	top: 20px;
 	right: 20px;
 	font-weight: 200;
-	border: solid 2px #d20e32;
 	border-radius: 50%;
 	width: 45px;
 	height: 45px;
 	color: #d20e32;
 	transition: 0.7s;
-	padding-left: 10px;
-	padding-top: 1px;
 }
 
 .cv-modal-close:hover {
 	cursor: pointer;
-	border: solid 2px #e0536c;
 	color: #e0536c;
 }
 
