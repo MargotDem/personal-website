@@ -114,6 +114,30 @@
 	color: #e0536c;
 }
 
+@media (max-width: 1024px) {
+	.cv-modal-background {
+		display: none;
+	}
+
+	.cv-modal-container {
+		display: none;
+	}
+
+	.cv-modal {
+		display: none;
+	}
+
+	.cv-modal-close {
+		display: none;
+	}
+
+	.cv-download-button {
+		position: fixed;
+		top: 90px;
+		right: 30px;
+	}
+}
+
 @media (max-width: 425px) {
 	.cv-top {
 		height: 70vh;
