@@ -7,14 +7,12 @@ export default class Project extends Component {
 		document.getElementById('project-pic-' + id).style.transform = 'translate(-5px, 0px)'
 		document.getElementById('project-title-' + id).style.transform = 'translate(0px, -5px)'
 		document.getElementById('project-description-' + id).style.transform = 'translate(5px, 0px)'
-
 	}
 
 	handleMouseOut (id) {
-		document.getElementById('project-pic-' + id).style.transform = 'translate(5px, 0px)'
-		document.getElementById('project-title-' + id).style.transform = 'translate(0px, 5px)'
-		document.getElementById('project-description-' + id).style.transform = 'translate(-5px, 0px)'
-
+		document.getElementById('project-pic-' + id).style.transform = 'translate(0px, 0px)'
+		document.getElementById('project-title-' + id).style.transform = 'translate(0px, 0px)'
+		document.getElementById('project-description-' + id).style.transform = 'translate(-0px, 0px)'
 	}
 	
 	render () {

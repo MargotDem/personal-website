@@ -45,6 +45,12 @@
 	height: 50px;
 	padding-top: 6px;
 	padding-left: 9px;
+	transition: 0.7s;
+}
+
+.cv-download-button:hover {
+	color: #62c2e5;
+	border: solid 2px #62c2e5;
 }
 
 @media (max-width: 425px) {

@@ -1,6 +1,6 @@
 .down-button-container {
 	position: fixed;
-	bottom: 5px;
+	bottom: 10px;
 	z-index: 500;
 	font-size: 40px;
 	color: #d20e32;
@@ -21,6 +21,8 @@
 
 .down-button:hover {
 	cursor: pointer;
+	border: solid 2px #e0536c;
+	color: #e0536c;
 }
 
 .down-button-hide {

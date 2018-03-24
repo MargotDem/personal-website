@@ -30,7 +30,7 @@
 .projects-perso {
 	position: absolute;
 	top: 130px;
-	left: 150px;
+	left: 170px;
 	font-family: Nunito;
 	font-size: 27px;
 }
@@ -54,7 +54,7 @@
 }
 
 .projects-top-content {
-	width: 80%;
+	width: 75%;
 	/*background: orange;*/
 	height: 150px;
 	position: absolute;
@@ -74,7 +74,7 @@
 }
 
 .projects-bottom-content {
-	width: 80%;
+	width: 75%;
 	/*background: orange;*/
 	height: 150px;
 	position: absolute;
