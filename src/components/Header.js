@@ -79,17 +79,17 @@ export default class Header extends BaseContainer {
             </div>
             <div className='header-bottom'>
               <div className='header-bottom-content'>
-                <span className='header-link' href='' onClick={() => { this.handleClick() }}>Contact</span>
-                <span className='header-link' href='' onClick={() => { this.handleNavClick('projects') }}>{t('header.projects')}</span>
-                <span className='header-link' href='' onClick={() => { this.handleNavClick('cv') }}>CV</span>
+                <span className='header-link' onClick={() => { this.handleClick() }}>Contact</span>
+                <span className='header-link' onClick={() => { this.handleNavClick('projects') }}>{t('header.projects')}</span>
+                <span className='header-link' onClick={() => { this.handleNavClick('cv') }}>CV</span>
 
                 <div className='dropdown'>
                   <a className='dropdown-toggle header-dropdown header-link' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                     {t('header.language')}
                   </a>
                   <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
-                    <span className='dropdown-item' href='' onClick={() => { i18n.changeLanguage('en') }}>English</span>
-                    <span className='dropdown-item' href='' onClick={() => { i18n.changeLanguage('fr') }}>French</span>
+                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('en') }}>English</span>
+                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('fr') }}>French</span>
                   </div>
                 </div>
               </div>

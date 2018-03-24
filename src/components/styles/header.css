@@ -80,7 +80,7 @@
 .transition-out {
 	height: 0px;
 	transition: 0.7s;
-	background: linear-gradient(0deg,#2b374f,#1c2538);
+	background: linear-gradient(-90deg,#4d628e,#32405b);
 }
 
 .transition-out-show {
