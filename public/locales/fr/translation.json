@@ -1,0 +1,25 @@
+{
+  "home": {
+    "text": "frennnchhhh",
+    "briefcase": "french Lorem ipsum stuff stuff stuff",
+    "code": "Lorem stuff blablablablabla",
+    "heart": "hi there",
+    "seePortfolio": "Voir portfolio"
+  },
+  "header": {
+    "projects": "Projets",
+    "language": "Langue"
+  },
+  "contact": {
+    "getInTouch": "Contactez-moi!",
+    "yourName": "Votre nom",
+    "yourEmail": "Votre mail",
+    "yourMessage": "Votre message",
+    "send": "Envoyer",
+    "madeWith": "Fait avec"
+  },
+  "projects": {
+    "personal": "rojets personnels",
+    "contributed": "rojets auxquels j’ai contribué"
+  }
+}

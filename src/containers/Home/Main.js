@@ -7,7 +7,7 @@ import pic from '../../img/pic.jpg'
 import './styles/main.css'
 
 export default class Main extends BaseContainer {
-  render () {
+  renderMe (t) {
     return (
       <div className='top-container main-container'>
         <div className='main-message'>
@@ -19,7 +19,9 @@ export default class Main extends BaseContainer {
             <span className='main-W'>W</span>orld !
           </span>
         </div>
-        <div className='main-text'>I’m Margot, a French junior developer, business student, autodidact and language enthusiast</div>
+        <div className='main-text'>
+          {t('home.text')}
+        </div>
         <div className='main-photo-container'>
           <img className='main-photo' alt='me' src={pic} />
         </div>

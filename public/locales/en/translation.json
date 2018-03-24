@@ -1,0 +1,25 @@
+{
+  "home": {
+    "text": "I’m Margot, a French junior developer, business student, autodidact and language enthusiast",
+    "briefcase": "Lorem ipsum stuff stuff stuff",
+    "code": "Lorem stuff blablablablabla",
+    "heart": "hi there",
+    "seePortfolio": "See portfolio"
+  },
+  "header": {
+    "projects": "Projects",
+    "language": "Language"
+  },
+  "contact": {
+    "getInTouch": "Get in touch !",
+    "yourName": "Your name",
+    "yourEmail": "Your email",
+    "yourMessage": "Your message",
+    "send": "Send",
+    "madeWith": "Made with"
+  },
+  "projects": {
+    "personal": "ersonal projects",
+    "contributed": "rojects I’ve contributed to"
+  }
+}

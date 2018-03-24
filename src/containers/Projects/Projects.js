@@ -40,12 +40,13 @@ const CONTRIBUTED_PROJECTS = [
 ]
 
 export default class Projects extends BaseContainer {
-  render () {
+  renderMe (t) {
     return (
       <div>
         <div className='top-container projects-top-container'>
           <div className='projects-perso'>
-            <span className='projects-perso-P'>P</span>ersonal projects
+            <span className='projects-perso-P'>P</span>
+              {t('projects.personal')}
           </div>
           <div className='projects-top-content'>
             {
@@ -68,7 +69,8 @@ export default class Projects extends BaseContainer {
         <div className='middle-container projects-bottom-container'>
           <div className='projects-bottom-wrapper'>
             <div className='projects-contributed'>
-              <span className='projects-contributed-P'>P</span>rojects I’ve contributed to
+              <span className='projects-contributed-P'>P</span>
+              {t('projects.contributed')}
             </div>
             <div className='projects-bottom-content'>
               {

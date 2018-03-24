@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
+import BaseContainer from '../containers/BaseContainer'
 import { NavLink } from 'react-router-dom'
 
 import './styles/header.css'
 
-export default class Header extends Component {
+export default class Header extends BaseContainer {
   componentDidMount () {
     this.timer = setInterval(function () {
       if (window.pageYOffset > 700) {
@@ -33,7 +34,7 @@ export default class Header extends Component {
     document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })
   }
 
-  render () {
+  renderMe (t) {
     return (
       <div className='header-container'>
         <div className='header-box'>
@@ -61,9 +62,9 @@ export default class Header extends Component {
           <div className='header-bottom'>
             <div className='header-bottom-content'>
               <span className='header-link' href='' onClick={() => { this.handleClick() }}>Contact</span>
-              <NavLink className='header-link' to={'/projects'}>Projects</NavLink>
+              <NavLink className='header-link' to={'/projects'}>{t('header.projects')}</NavLink>
               <NavLink className='header-link' to={'/cv'}>CV</NavLink>
-              <NavLink className='header-link' to={'/'}>Language</NavLink>
+              <NavLink className='header-link' to={'/'}>{t('header.language')}</NavLink>
             </div>
           </div>
         </div>
