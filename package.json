@@ -7,6 +7,7 @@
     "i18next-xhr-backend": "^1.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-dropdown": "^1.4.0",
     "react-i18next": "^7.5.1",
     "react-render-html": "^0.6.0",
     "react-router-dom": "^4.2.2",
