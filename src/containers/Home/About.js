@@ -40,7 +40,7 @@ export default class About extends BaseContainer {
   renderMe (t) {
     return (
       <div className='middle-container about-container'>
-        <div className='about-content'>
+        <div className='middle-container-wrapper about-content'>
           {
             PARAGRAPHS.map((item) => {
               return (

@@ -9,9 +9,6 @@
 }
 
 .cv-bottom-wrapper {
-	transform:skew(0deg,5deg);
-	-ms-transform:skew(0deg,10deg);
-	-webkit-transform:skew(0deg,4deg);
 	padding-top: 210px;
 }
 
@@ -110,7 +107,20 @@
 	color: #e0536c;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
+	.cv-modal {
+		width: 650px;
+	}
+	.cv-download-button {
+		top: 180px;
+		right: 55px;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+	.cv-img {
+		width: 80vw;
+	}
 	.cv-modal-background {
 		display: none;
 	}
@@ -142,4 +152,21 @@
 	.cv-download-button {
 		display: none;
 	}
+
+	.cv-modal-background {
+		display: none;
+	}
+
+	.cv-modal-container {
+		display: none;
+	}
+
+	.cv-modal {
+		display: none;
+	}
+
+	.cv-modal-close {
+		display: none;
+	}
+
 }

@@ -94,7 +94,7 @@ export default class Projects extends BaseContainer {
           </div>
         </div>
         <div className='middle-container projects-bottom-container'>
-          <div className='projects-bottom-wrapper'>
+          <div className='middle-container-wrapper projects-bottom-wrapper'>
             <div className='projects-contributed'>
               <span className='projects-contributed-P'>P</span>
               {t('projects.contributed')}

@@ -17,7 +17,6 @@ export default class Project extends Component {
 
   render () {
     let { id, name, url, description, picUrl, githubUrl, icons } = this.props
-    console.log(icons)
     return (
       <a
         className='project-container'
@@ -48,7 +47,7 @@ export default class Project extends Component {
                 {
                   Object.values(icons).map((item, index) => {
                     return (
-                        <img src={item} className='project-icon' />
+                      <img src={item} className='project-icon' alt='skill icon' />
                     )
                   })
                 }

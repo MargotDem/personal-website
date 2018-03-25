@@ -65,7 +65,7 @@ export default class Cv extends BaseContainer {
         </div>
 
         <div className='middle-container cv-bottom'>
-          <div className='cv-bottom-wrapper'>
+          <div className='middle-container-wrapper cv-bottom-wrapper'>
             <NavButton page={'projects'} />
           </div>
         </div>

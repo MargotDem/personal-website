@@ -33,6 +33,12 @@ h3 {
   background: whitesmoke;
 }
 
+.middle-container-wrapper {
+  transform:skew(0deg,5deg);
+	-ms-transform:skew(0deg,10deg);
+	-webkit-transform:skew(0deg,4deg);
+}
+
 .my-button {
 	height: 40px;
 	border-radius: 4px;
@@ -57,4 +63,19 @@ h3 {
   background: blue;
   height: 200px;
   transition: 0.5s;
+}
+
+@media (min-width: 1441px) {
+  .middle-container {
+    transform:skew(0deg,-3deg);
+  	-ms-transform:skew(0deg,-7deg);
+  	-webkit-transform:skew(0deg,-2deg);
+    margin-top:-50px;
+    background: whitesmoke;
+  }
+  .middle-container-wrapper {
+    transform:skew(0deg,3deg);
+  	-ms-transform:skew(0deg,7deg);
+  	-webkit-transform:skew(0deg,2deg);
+  }
 }
