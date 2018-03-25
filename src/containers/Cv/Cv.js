@@ -18,16 +18,17 @@ export default class Cv extends BaseContainer {
 
   componentDidMount () {
     document.title = 'CV · Margot de Maulmont'
-    this.timer = setInterval(function () {
+    this.interval = setInterval(function () {
       document.getElementById('cv-download-button').style.transform = 'translate(0px, 18px)'
-      setTimeout(function () {
+      this.timeout = setTimeout(function () {
         document.getElementById('cv-download-button').style.transform = 'translate(0px, 0px)'
       }, 300)
     }, 5000)
   }
 
   componentWillUnmount () {
-    clearInterval(this.timer)
+    clearInterval(this.interval)
+    clearTimeout(this.timeout)
   }
 
   handleOpenClick () {
