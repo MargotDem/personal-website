@@ -2,6 +2,7 @@ import React from 'react'
 
 import BaseContainer from '../BaseContainer'
 import NavButton from '../../components/NavButton'
+import renderHTML from 'react-render-html'
 
 import './styles/about.css'
 
@@ -33,7 +34,6 @@ export default class About extends BaseContainer {
     setTimeout(function () {
       document.getElementById('transition-out').className = 'transition-out'
       window.location = ('/#' + page)
-      // document.getElementById('testtt').submit()
     }, 1000)
   }
 
@@ -48,7 +48,7 @@ export default class About extends BaseContainer {
                   <p className={'about-icon about-icon-' + item.icon}>
                     <i className={'fa fa-' + item.icon} />
                   </p>
-                  <p>{t(item.text)}</p>
+                  <p>{renderHTML(t(item.text))}</p>
                 </div>
               )
             })

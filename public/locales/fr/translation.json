@@ -1,9 +1,9 @@
 {
   "home": {
-    "text": "Je suis Margot, développeuse junior, étudiante en école de commerce, autodidacte et passionnée de langues étrangères (...)",
-    "briefcase": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-    "code": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "heart": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+    "text": "Je suis Margot, développeuse junior, étudiante en école de commerce, et passionnée de langues étrangères",
+    "briefcase": "Après le Bac, j’ai fait une classe préparatoire aux grandes écoles de commerce et ai intégré <a href='http://www.audencia.com' target='_blank' rel='noopener noreferrer'>Audencia</a>. Après deux premiers semestres, l’année dernière, j’ai découvert le développement web grâce à un stage. C’est rapidement devenu une passion et j’ai décidé de faire une césure pour m'y consacrer.",
+    "code": "J’ai commencé à apprendre à coder en autodidacte l’été dernier, puis ai candidaté à <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, école du numérique et startup sociale et solidaire. Je suis actuellement une des formations de développement web (fullstack PHP), qui finit en avril.",
+    "heart": "J’aime lire–notamment en anglais, espagnol et portugais, faire des choses de mes mains et discuter de problématiques sociétales (féminisme, inclusion, éducation...). J’ai hâte de monter en compétences, étudier à l’étranger et trouver mon job idéal, à mi-chemin entre <i>software engineer</i> et <i>project manager</i>.",
     "seePortfolio": "Portfolio"
   },
   "header": {

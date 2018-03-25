@@ -4,12 +4,12 @@ html {
 
 ::selection {
   color: whitesmoke;
-  background: #0ba343;
+  background: #39ba69;
 }
 
 ::-moz-selection {
 color: whitesmoke;
-background: #0ba343;
+background: #39ba69;
 }
 
 *, *:before, *:after {

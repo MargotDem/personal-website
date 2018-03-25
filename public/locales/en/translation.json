@@ -1,9 +1,9 @@
 {
   "home": {
-    "text": "I’m Margot, a French junior developer, business student, autodidact and language enthusiast",
-    "briefcase": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-    "code": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "heart": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+    "text": "I’m Margot, a French junior developer, business student, and foreign languages enthusiast",
+    "briefcase": "I did a “preparatory class” after high school (a demanding two-year program to prepare the entry exams to France’s top business schools) and was admitted into <a href='http://www.audencia.com/en/' target='_blank' rel='noopener noreferrer'>Audencia</a>. After my first two semesters, last year, I discovered web development thanks to an internship, fell in love with it, and decided to take a year off to become a developer.",
+    "code": "I started learning how to code last summer on my own, then applied to <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, a state and EU funded school and social startup. I am now attending their seven months web development program (fullstack PHP) that ends in April.",
+    "heart": "I love reading books–especially in English, Spanish and Portuguese, crafting things and discussing social matters (from feminism to social inclusion to education). I look forward to learning new skills, studying abroad and finding my dream job, part software engineer, part project manager.",
     "seePortfolio": "Portfolio"
   },
   "header": {
