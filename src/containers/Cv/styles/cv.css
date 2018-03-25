@@ -1,5 +1,5 @@
 .cv-top {
-	height: 600px;
+	height: 750px;
 	display: flex;
 	justify-content: center;
 }
@@ -12,40 +12,40 @@
 	transform:skew(0deg,5deg);
 	-ms-transform:skew(0deg,10deg);
 	-webkit-transform:skew(0deg,4deg);
+	padding-top: 210px;
 }
 
 .cv-img {
 	position: absolute;
-	top: 70px;
+	top: 60px;
 	width: 510px;
 	z-index: 400;
 	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.1);
+	transition: 0.7s;
 }
 
 .cv-img:hover {
 	cursor: pointer;
 	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	width: 520px;
 }
 
 .cv-download-button {
 	position: absolute;
-	top: 150px;
+	top: 180px;
 	right: 110px;
-	font-size: 30px;
+	font-size: 35px;
 	color: #32b5e5;
-	border: solid 2px #32b5e5;
-	border-radius: 50%;
 	width: 50px;
 	height: 50px;
 	padding-top: 2px;
 	padding-left: 9px;
 	transition: 0.7s;
-	z-index: 499;
+	z-index: 500;
 }
 
 .cv-download-button:hover {
 	color: #62c2e5;
-	border: solid 2px #62c2e5;
 }
 
 .cv-modal-background {
@@ -55,7 +55,7 @@
 	right: 0px;
 	left: 0px;
 	background: rgba(0,0,0,0.35);
-	z-index: 499;
+	z-index: 500;
 	transition: 0.5s;
 	opacity: 0;
 	visibility: hidden;
@@ -95,7 +95,7 @@
 	z-index: 1000;
 	font-size: 40px;
 	position: fixed;
-	top: 20px;
+	top: 15px;
 	right: 20px;
 	font-weight: 200;
 	border-radius: 50%;
@@ -126,12 +126,6 @@
 	.cv-modal-close {
 		display: none;
 	}
-
-	.cv-download-button {
-		position: fixed;
-		top: 90px;
-		right: 30px;
-	}
 }
 
 @media (max-width: 425px) {
@@ -144,5 +138,8 @@
 	.cv-img {
 		top: 150px;
 		width: 310px;
+	}
+	.cv-download-button {
+		display: none;
 	}
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BaseContainer from '../BaseContainer'
+import NavButton from '../../components/NavButton'
 import Contact from '../../components/Contact'
 import cvFr from '../../img/cv-fr.png'
 import cvFrPdf from '../../img/cv-fr.pdf'
@@ -17,6 +18,16 @@ export default class Cv extends BaseContainer {
 
   componentDidMount () {
     document.title = 'CV · Margot de Maulmont'
+    this.timer = setInterval(function () {
+      document.getElementById('cv-download-button').style.transform = 'translate(0px, 18px)'
+      setTimeout(function () {
+        document.getElementById('cv-download-button').style.transform = 'translate(0px, 0px)'
+      }, 300)
+    }, 5000)
+  }
+
+  componentWillUnmount () {
+    clearInterval(this.timer)
   }
 
   handleOpenClick () {
@@ -48,13 +59,15 @@ export default class Cv extends BaseContainer {
 
         <div className='top-container cv-top'>
           <img alt='cv' src={cvFr} className='cv-img' onClick={() => { this.handleOpenClick() }} />
-          <a href={cvFrPdf} download='CV Margot de Maulmont' className='cv-download-button'>
+          <a href={cvFrPdf} download='CV Margot de Maulmont' className='cv-download-button' id='cv-download-button'>
             <i className='fa fa-download' />
           </a>
         </div>
 
         <div className='middle-container cv-bottom'>
-          <div className='cv-bottom-wrapper' />
+          <div className='cv-bottom-wrapper'>
+            <NavButton page={'projects'} />
+          </div>
         </div>
 
         <Contact />

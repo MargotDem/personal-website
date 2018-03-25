@@ -2,7 +2,7 @@
 	position: fixed;
 	bottom: 10px;
 	z-index: 500;
-	font-size: 40px;
+	font-size: 55px;
 	color: #d20e32;
 	width: 100%;
 	display: flex;
@@ -10,18 +10,11 @@
 }
 
 .down-button {
-	border-radius: 50px;
-	border: solid 2px #d20e32;
-	width: 45px;
-	height: 45px;
-	padding-left: 8px;
-	padding-top: 2px;
-	transition: 0.7s;
+	transition: 1s;
 }
 
 .down-button:hover {
 	cursor: pointer;
-	border: solid 2px #e0536c;
 	color: #e0536c;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BaseContainer from '../BaseContainer'
+import NavButton from '../../components/NavButton'
 
 import './styles/about.css'
 
@@ -52,9 +53,7 @@ export default class About extends BaseContainer {
               )
             })
           }
-          <div className='about-button-container'>
-            <button className='my-button' onClick={() => { this.handleNavClick('projects') }}>{t('home.seePortfolio')}</button>
-          </div>
+          <NavButton page={'projects'} />
         </div>
       </div>
     )

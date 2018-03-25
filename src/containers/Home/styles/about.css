@@ -51,12 +51,6 @@
 	padding-top: 5px;
 }
 
-.about-button-container {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
 @media (max-width: 768px) {
 	.about-container {
 		height: 2000px;

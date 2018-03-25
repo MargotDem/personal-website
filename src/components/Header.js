@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BaseContainer from '../containers/BaseContainer'
+import NavButton from './NavButton'
 import i18n from '../lib/i18n'
 import 'react-dropdown/style.css'
 
@@ -35,21 +36,6 @@ export default class Header extends BaseContainer {
     document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })
   }
 
-  handleNavClick (page) {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    })
-
-    document.getElementById('transition-out').className = 'transition-out transition-out-show'
-
-    setTimeout(function () {
-      document.getElementById('transition-out').className = 'transition-out'
-      window.location = ('/#' + page)
-    }, 1000)
-  }
-
   renderMe (t) {
     return (
       <div>
@@ -58,7 +44,7 @@ export default class Header extends BaseContainer {
           <div className='header-box'>
             <div id='header-top' className='header-top header-link'>
               <div className='header-top-content'>
-                <span className='header-link' href='' onClick={() => { this.handleNavClick('') }}>Margot de Maulmont</span>
+                <NavButton headerButton page={''} text={'Margot de Maulmont'} />
                 <a
                   className='header-link'
                   target='_blank'
@@ -80,8 +66,8 @@ export default class Header extends BaseContainer {
             <div className='header-bottom'>
               <div className='header-bottom-content'>
                 <span className='header-link' onClick={() => { this.handleClick() }}>Contact</span>
-                <span className='header-link' onClick={() => { this.handleNavClick('projects') }}>{t('header.projects')}</span>
-                <span className='header-link' onClick={() => { this.handleNavClick('cv') }}>CV</span>
+                <NavButton headerButton page={'projects'} text={t('header.projects')} />
+                <NavButton headerButton page={'cv'} text={'CV'} />
 
                 <div className='dropdown'>
                   <a className='dropdown-toggle header-dropdown header-link' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>

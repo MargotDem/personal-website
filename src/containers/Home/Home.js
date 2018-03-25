@@ -18,6 +18,16 @@ export default class Home extends Component {
 
   componentDidMount () {
     document.title = 'Margot de Maulmont'
+    this.timer = setInterval(function () {
+      document.getElementById('down-button').style.transform = 'translate(0px, 18px)'
+      setTimeout(function () {
+        document.getElementById('down-button').style.transform = 'translate(0px, 0px)'
+      }, 300)
+    }, 3000)
+  }
+
+  componentWillUnmount () {
+    clearInterval(this.timer)
   }
 
   handleMouseOver () {

@@ -2,6 +2,16 @@ html {
   box-sizing: border-box;
 }
 
+::selection {
+  color: whitesmoke;
+  background: #0ba343;
+}
+
+::-moz-selection {
+color: whitesmoke;
+background: #0ba343;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
