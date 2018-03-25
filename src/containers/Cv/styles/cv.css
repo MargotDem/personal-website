@@ -40,7 +40,7 @@
 	padding-top: 2px;
 	padding-left: 9px;
 	transition: 0.7s;
-	z-index: 500;
+	z-index: 499;
 }
 
 .cv-download-button:hover {
@@ -55,7 +55,7 @@
 	right: 0px;
 	left: 0px;
 	background: rgba(0,0,0,0.35);
-	z-index: 500;
+	z-index: 499;
 	transition: 0.5s;
 	opacity: 0;
 	visibility: hidden;

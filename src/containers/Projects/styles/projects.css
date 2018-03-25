@@ -6,7 +6,7 @@
 }
 
 .projects-bottom-container {
-	height: 600px;
+	height: 500px;
 	color: #2b374f;
 }
 
@@ -60,8 +60,9 @@
 	color: #d0d4dd;
 }
 
-.projects-bottom-content a {
+.projects-bottom-content a, .projects-bottom-content h5 {
 	color: #2b374f;
+	font-weight: bold;
 }
 
 .projects-bottom-content {

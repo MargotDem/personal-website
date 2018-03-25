@@ -6,6 +6,13 @@ import Project from './Project'
 import projectOcc from '../../img/project-occ.png'
 import projectLexicode from '../../img/project-lexicode.png'
 import projectBT from '../../img/project-BT.png'
+import react from '../../img/icons/react.png'
+import php from '../../img/icons/php.png'
+import sql from '../../img/icons/sql.png'
+import js from '../../img/icons/js.png'
+import bootstrap from '../../img/icons/bootstrap.png'
+import git from '../../img/icons/git.png'
+import cmdline from '../../img/icons/cmdline.png'
 
 import './styles/projects.css'
 
@@ -14,17 +21,26 @@ const PERSO_PROJECTS = [
     id: 1,
     name: 'Open Carte Comptable',
     url: 'http://opencartecomptable.fr/',
-    description: 'description arzegt azrgehtryt nzteyrhtzt atezrht zefzgqrshtd ffze tsy(',
+    description: 'projects.occ',
     picUrl: projectOcc,
-    githubUrl: 'https://github.com/MargotDem/opencartecomptable'
+    githubUrl: 'https://github.com/MargotDem/opencartecomptable',
+    icons: {
+      'php': php,
+      'sql': sql,
+      'js': js,
+      'bootstrap': bootstrap
+    }
   },
   {
     id: 2,
     name: 'Lexicode',
     url: 'https://lexicode.herokuapp.com/',
-    description: 'description arzegt azrgehtryt nzteyrhtzt atezrht zefzgqrshtd ffze tsy(',
+    description: 'projects.lexicode',
     picUrl: projectLexicode,
-    githubUrl: 'https://github.com/MargotDem/lexicode'
+    githubUrl: 'https://github.com/MargotDem/lexicode',
+    icons: {
+      'react': react
+    }
   }
 ]
 
@@ -33,9 +49,15 @@ const CONTRIBUTED_PROJECTS = [
     id: 3,
     name: 'Brother Tongue',
     url: 'https://brothertongue.com/#/',
-    description: 'description arzegt azrgehtryt nzteyrhtzt atezrht zefzgqrshtd ffze tsy(',
+    description: 'projects.bt',
     picUrl: projectBT,
-    githubUrl: false
+    githubUrl: false,
+    icons: {
+      'react': react,
+      'git': git,
+      'cmdline': cmdline,
+      'bootstrap': bootstrap
+    }
   }
 ]
 
@@ -61,9 +83,10 @@ export default class Projects extends BaseContainer {
                     id={item.id}
                     name={item.name}
                     url={item.url}
-                    description={item.description}
+                    description={t(item.description)}
                     picUrl={item.picUrl}
                     githubUrl={item.githubUrl}
+                    icons={item.icons}
                   />
                 )
               })
@@ -85,9 +108,10 @@ export default class Projects extends BaseContainer {
                       id={item.id}
                       name={item.name}
                       url={item.url}
-                      description={item.description}
+                      description={t(item.description)}
                       picUrl={item.picUrl}
                       githubUrl={item.githubUrl}
+                      icons={item.icons}
                     />
                   )
                 })

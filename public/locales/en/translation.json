@@ -1,9 +1,9 @@
 {
   "home": {
     "text": "I’m Margot, a French junior developer, business student, autodidact and language enthusiast",
-    "briefcase": "Lorem ipsum stuff stuff stuff",
-    "code": "Lorem stuff blablablablabla",
-    "heart": "hi there",
+    "briefcase": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+    "code": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "heart": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
     "seePortfolio": "See portfolio"
   },
   "header": {
@@ -20,6 +20,9 @@
   },
   "projects": {
     "personal": "ersonal projects",
-    "contributed": "rojects I’ve contributed to"
+    "contributed": "rojects I’ve contributed to",
+    "occ": "A collaborative database of all the secondary schools in France that I made for a ”State startup”",
+    "lexicode": "A collection of notes on code-related topics",
+    "bt": "A language-teaching startup where I worked on the website as an intern"
   }
 }

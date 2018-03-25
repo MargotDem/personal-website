@@ -12,14 +12,13 @@
 
 .projects-bottom-container a {
 	text-decoration: none;
-
 }
 
 .project-pic {
 	width: 140px;
 	height: 140px;
 	border-radius: 50%;
-	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.3);
 	transition: 0.7s;
 }
 
@@ -33,11 +32,12 @@
 
 .project-content {
 	padding-left: 20px;
-	text-shadow: 0 2px 8px rgba(34,34,34,.4);
+	text-shadow: 0 2px 8px rgba(0,0,0,.3);
 }
 
 .project-content h5 {
 	font-family: Nunito;
+	font-size: 22px;
 }
 
 .project-content p {
@@ -47,6 +47,13 @@
 
 .project-github:hover {
 	color: #32b5e5;
+}
+
+.project-icon {
+	width: 16px;
+	margin: 0px 4px;
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
 }
 
 @media (max-width: 425px) {
