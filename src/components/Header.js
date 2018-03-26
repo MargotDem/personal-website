@@ -75,7 +75,7 @@ export default class Header extends BaseContainer {
                   </a>
                   <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
                     <span className='dropdown-item' onClick={() => { i18n.changeLanguage('en') }}>English</span>
-                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('fr') }}>French</span>
+                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('fr') }}>Français</span>
                   </div>
                 </div>
               </div>
