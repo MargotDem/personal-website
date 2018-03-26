@@ -24,18 +24,6 @@ export default class NavButton extends BaseContainer {
     }
   }
 
-  componentDidMount () {
-
-  }
-
-  // mobileCheck () {
-  //   if (window.innerWidth <= 425) {
-  //     return true
-  //   } else {
-  //     return false
-  //   }
-  // }
-
   renderMe (t) {
     let { headerButton, page, text } = this.props
     if (headerButton) {

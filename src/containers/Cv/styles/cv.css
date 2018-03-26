@@ -118,6 +118,9 @@
 }
 
 @media (max-width: 768px) and (min-width: 426px) {
+	.cv-bottom-wrapper {
+		padding-top: 280px;
+	}
 	.cv-img {
 		width: 80vw;
 	}
@@ -142,9 +145,11 @@
 	.cv-top {
 		height: 70vh;
 	}
-	.cv-bottom {
-		height: 50vh;
+
+	.cv-bottom-wrapper {
+		padding-top: 280px;
 	}
+
 	.cv-img {
 		top: 150px;
 		width: 310px;
