@@ -22,3 +22,9 @@
 	opacity: 0;
 	visibility: hidden;
 }
+
+@media (max-width: 425px) {
+	.down-button {
+		display: none;
+	}
+}
