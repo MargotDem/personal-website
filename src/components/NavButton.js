@@ -8,7 +8,6 @@ export default class NavButton extends BaseContainer {
   handleNavClick (page) {
     if (window.innerWidth <= 425) {
       window.location = ('/#' + page)
-      // console.log('mobile')
     } else {
       window.scroll({
         top: 0,
