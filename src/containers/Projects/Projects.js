@@ -13,6 +13,7 @@ import js from '../../img/icons/js.png'
 import bootstrap from '../../img/icons/bootstrap.png'
 import git from '../../img/icons/git.png'
 import cmdline from '../../img/icons/cmdline.png'
+import nodejs from '../../img/icons/nodejs.png'
 
 import './styles/projects.css'
 
@@ -39,7 +40,9 @@ const PERSO_PROJECTS = [
     picUrl: projectLexicode,
     githubUrl: 'https://github.com/MargotDem/lexicode',
     icons: {
-      'react': react
+      'react': react,
+      'nodejs': nodejs,
+      'sql': sql
     }
   }
 ]
