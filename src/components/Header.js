@@ -3,7 +3,6 @@ import React from 'react'
 import BaseContainer from '../containers/BaseContainer'
 import NavButton from './NavButton'
 import i18n from '../lib/i18n'
-import 'react-dropdown/style.css'
 
 import './styles/header.css'
 
