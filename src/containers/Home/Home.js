@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Waypoint from 'react-waypoint'
 
 import Main from './Main'
@@ -31,12 +30,9 @@ export default class Home extends Component {
     clearTimeout(this.timeout)
   }
 
-  handleMouseOver () {
-    document.getElementById('down-button').style.transform = 'translate(0px, 6px)'
-  }
-
-  handleMouseOut () {
-    document.getElementById('down-button').style.transform = 'translate(0px, 0px)'
+  handleMouseHovering (isMouseOver) {
+    isMouseOver ? document.getElementById('down-button').style.transform = 'translate(0px, 6px)'
+    : document.getElementById('down-button').style.transform = 'translate(0px, 0px)'
   }
 
   handleClick () {
@@ -57,8 +53,8 @@ export default class Home extends Component {
         <div className='down-button-container'>
           <i
             id='down-button'
-            onMouseOver={() => { this.handleMouseOver() }}
-            onMouseOut={() => { this.handleMouseOut() }}
+            onMouseOver={() => { this.handleMouseHovering(true) }}
+            onMouseOut={() => { this.handleMouseHovering(false) }}
             onClick={() => { this.handleClick() }}
             className={'fa fa-angle-down down-button' + (this.state.scrolledPast ? '' : ' down-button-hide')}
           />

@@ -1,8 +1,8 @@
 import React from 'react'
+import renderHTML from 'react-render-html'
 
 import BaseContainer from '../BaseContainer'
 import NavButton from '../../components/NavButton'
-import renderHTML from 'react-render-html'
 
 import './styles/about.css'
 

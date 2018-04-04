@@ -3,16 +3,16 @@ import React, { Component } from 'react'
 import './styles/project.css'
 
 export default class Project extends Component {
-  handleMouseOver (id) {
-    document.getElementById('project-pic-' + id).style.transform = 'translate(-5px, 0px)'
-    document.getElementById('project-title-' + id).style.transform = 'translate(0px, -5px)'
-    document.getElementById('project-description-' + id).style.transform = 'translate(5px, 0px)'
-  }
-
-  handleMouseOut (id) {
-    document.getElementById('project-pic-' + id).style.transform = 'translate(0px, 0px)'
-    document.getElementById('project-title-' + id).style.transform = 'translate(0px, 0px)'
-    document.getElementById('project-description-' + id).style.transform = 'translate(0px, 0px)'
+  handleMouseHovering (isMouseOver, id) {
+    if (isMouseOver) {
+      document.getElementById('project-pic-' + id).style.transform = 'translate(-5px, 0px)'
+      document.getElementById('project-title-' + id).style.transform = 'translate(0px, -5px)'
+      document.getElementById('project-description-' + id).style.transform = 'translate(5px, 0px)'
+    } else {
+      document.getElementById('project-pic-' + id).style.transform = 'translate(0px, 0px)'
+      document.getElementById('project-title-' + id).style.transform = 'translate(0px, 0px)'
+      document.getElementById('project-description-' + id).style.transform = 'translate(0px, 0px)'
+    }
   }
 
   render () {
@@ -23,8 +23,8 @@ export default class Project extends Component {
         href={url}
         target='_blank'
         rel='noopener noreferrer'
-        onMouseOver={() => { this.handleMouseOver(id) }}
-        onMouseOut={() => { this.handleMouseOut(id) }}
+        onMouseOver={() => { this.handleMouseHovering(true, id) }}
+        onMouseOut={() => { this.handleMouseHovering(false, id) }}
       >
         <div className='project-pic-container'>
           <img id={'project-pic-' + id} className='project-pic' src={picUrl} alt='project-snapshot' />

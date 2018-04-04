@@ -31,15 +31,9 @@ export default class Cv extends BaseContainer {
     clearTimeout(this.timeout)
   }
 
-  handleOpenClick () {
+  handleModalClick (showModal) {
     this.setState({
-      showModal: true
-    })
-  }
-
-  handleCloseClick () {
-    this.setState({
-      showModal: false
+      showModal: showModal
     })
   }
 
@@ -49,7 +43,7 @@ export default class Cv extends BaseContainer {
       <div>
         <div
           className={'cv-modal-background' + (showModal ? ' cv-modal-background-show' : '')}
-          onClick={() => { this.handleCloseClick() }}
+          onClick={() => { this.handleModalClick(false) }}
         >
           <span className='cv-modal-close'>&times;</span>
         </div>
@@ -59,7 +53,7 @@ export default class Cv extends BaseContainer {
         </div>
 
         <div className='top-container cv-top'>
-          <img alt='cv' src={cvFr} className='cv-img' onClick={() => { this.handleOpenClick() }} />
+          <img alt='cv' src={cvFr} className='cv-img' onClick={() => { this.handleModalClick(true) }} />
           <a href={cvFrPdf} download='CV Margot de Maulmont' className='cv-download-button' id='cv-download-button'>
             <i className='fa fa-download' />
           </a>

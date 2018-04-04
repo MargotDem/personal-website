@@ -8,21 +8,6 @@ import { Scroller } from './components/scroller'
 import './App.css'
 
 class App extends Component {
-  componentWillMount () {
-    this.updateTitle(this.props)
-  }
-
-  componentWillReceiveProps (nextProps) {
-    this.updateTitle(nextProps)
-  }
-
-  updateTitle (props) {
-    // doing this here because couldn't fix the bug for home page -_-"
-    document.title = 'Margot de Maulmont'
-    if (props.dynamicTitle !== undefined && props.dynamicTitle !== document.title) {
-      document.title = props.dynamicTitle
-    }
-  }
   render () {
     return (
       <HashRouter>

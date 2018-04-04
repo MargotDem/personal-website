@@ -32,7 +32,6 @@
 	justify-content: space-between;
 	padding-top: 18px;
 	font-size: 20px !important;
-
 }
 
 .header-bottom-content {
@@ -78,12 +77,6 @@
 	color: #2b374f !important;
 }
 
-.dropdown-menu {
-}
-
-.dropdown-item {
-}
-
 .transition-out {
 	height: 0px;
 	transition: 0.7s;
@@ -93,7 +86,6 @@
 .transition-out-show {
 	height: 100vh;
 }
-
 
 @media (max-width: 425px) {
 	.header-top-content {

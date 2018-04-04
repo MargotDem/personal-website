@@ -3,6 +3,7 @@ import React from 'react'
 import BaseContainer from '../BaseContainer'
 import Contact from '../../components/Contact'
 import Project from './Project'
+
 import projectOcc from '../../img/project-occ.png'
 import projectLexicode from '../../img/project-lexicode.png'
 import projectBT from '../../img/project-BT.png'

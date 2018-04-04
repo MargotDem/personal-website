@@ -1,7 +1,6 @@
 import React from 'react'
 
 import BaseContainer from '../BaseContainer'
-
 import pic from '../../img/pic.jpg'
 
 import './styles/main.css'
