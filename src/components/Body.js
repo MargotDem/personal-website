@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import { Component as Home } from '../containers/Home/index'
-import { Component as Cv } from '../containers/Cv/index'
-import { Component as Projects } from '../containers/Projects/index'
-
 import AsyncComponent from './AsyncComponent'
 
 const home = () => import('../containers/Home/index')
