@@ -1,17 +1,23 @@
 import React, { Component } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
-import Home from '../containers/Home/Home'
-import Cv from '../containers/Cv/Cv'
-import Projects from '../containers/Projects/Projects'
+import { Component as Home } from '../containers/Home/index'
+import { Component as Cv } from '../containers/Cv/index'
+import { Component as Projects } from '../containers/Projects/index'
+
+import AsyncComponent from './AsyncComponent'
+
+const home = () => import('../containers/Home/index')
+const cv = () => import('../containers/Cv/index')
+const projects = () => import('../containers/Projects/index')
 
 export default class Body extends Component {
   render () {
     return (
       <Switch>
-        <Route exact path='/' render={(props) => <Home {...props} />} />
-        <Route exact path='/cv' render={(props) => <Cv {...props} />} />
-        <Route exact path='/projects' render={(props) => <Projects {...props} />} />
+        <Route exact path='/' component={() => <AsyncComponent moduleProvider={home} />} />
+        <Route exact path='/cv' component={() => <AsyncComponent moduleProvider={cv} />} />
+        <Route exact path='/projects' component={() => <AsyncComponent moduleProvider={projects} />} />
         <Route path='/' render={() => <Redirect to='/' />} />
       </Switch>
     )

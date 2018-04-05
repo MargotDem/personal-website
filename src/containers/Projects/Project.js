@@ -47,7 +47,7 @@ export default class Project extends Component {
                 {
                   Object.values(icons).map((item, index) => {
                     return (
-                      <img src={item} className='project-icon' alt='skill icon' />
+                      <img key={index} src={item} className='project-icon' alt='skill icon' />
                     )
                   })
                 }
