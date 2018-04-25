@@ -1,5 +1,5 @@
 .projects-top-container {
-	height: 600px;
+	height: 700px;
 	color: #d0d4dd;
 	display: flex;
 	justify-content: center;
@@ -71,19 +71,19 @@
 
 @media (max-width: 1440px) {
 	.projects-top-container {
-		height: 650px;
+		height: 800px;
 	}
 }
 
 @media (max-width: 1024px) and (min-width: 426px) {
 	.projects-top-container {
-		height: 740px;
+		height: 950px;
 	}
 }
 
 @media (max-width: 425px) {
 	.projects-top-container {
-		height: 1050px;
+		height: 1400px;
 	}
 
 	.projects-bottom-container {

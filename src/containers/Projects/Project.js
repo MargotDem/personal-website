@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Tooltip from 'material-ui/Tooltip'
 
 import './styles/project.css'
 
@@ -45,9 +46,11 @@ export default class Project extends Component {
             {
               icons !== undefined && <span>
                 {
-                  Object.values(icons).map((item, index) => {
+                  Object.keys(icons).map((item, index) => {
                     return (
-                      <img key={index} src={item} className='project-icon' alt='skill icon' />
+                      <Tooltip key={index} id='tooltip-icon' title={item}>
+                        <img src={icons[item]} className='project-icon' alt='skill icon' />
+                      </Tooltip>
                     )
                   })
                 }
