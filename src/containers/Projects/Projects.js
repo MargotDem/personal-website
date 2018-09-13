@@ -27,7 +27,7 @@ const PERSO_PROJECTS = [
   {
     id: 1,
     name: 'Open Carte Comptable',
-    url: 'http://opencartecomptable.fr/',
+    url: 'https://opencartecomptable.herokuapp.com/',
     description: 'projects.occ',
     picUrl: projectOcc,
     githubUrl: 'https://github.com/MargotDem/opencartecomptable',

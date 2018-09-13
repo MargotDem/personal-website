@@ -7,17 +7,17 @@
     "seePortfolio": "Portfolio"
   },
   "header": {
-    "projects": "Projects",
-    "language": "Language",
-    "contact": "Contact"
+    "projects": "Proyectos",
+    "language": "Idioma",
+    "contact": "Contacto"
   },
   "contact": {
     "getInTouch": "Get in touch !",
-    "yourName": "Your name",
-    "yourEmail": "Your email",
-    "yourMessage": "Your message",
-    "send": "Send",
-    "madeWith": "Made with"
+    "yourName": "Su nombre",
+    "yourEmail": "Su correo electrónico",
+    "yourMessage": "Su mensaje",
+    "send": "Enviar",
+    "madeWith": "Hecho con"
   },
   "projects": {
     "personal": "ersonal projects",

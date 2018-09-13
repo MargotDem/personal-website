@@ -8,7 +8,7 @@
 	font-size: 17px;
 	font-family: Nunito;
 	z-index: 500;
-	text-shadow: 0 2px 8px rgba(34,34,34,.2);
+	text-shadow: 0 2px 8px rgba(34,34,34, 0.2);
 }
 
 .header-box {
@@ -27,7 +27,7 @@
 
 .header-top-content {
 	height: 100%;
-	width: 240px;
+	width: 260px;
 	display: flex;
 	justify-content: space-between;
 	padding-top: 18px;

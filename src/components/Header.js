@@ -64,7 +64,7 @@ export default class Header extends BaseContainer {
             </div>
             <div className='header-bottom'>
               <div className='header-bottom-content'>
-                <span className='header-link' onClick={() => { this.handleClick() }}>Contact</span>
+                <span className='header-link' onClick={() => { this.handleClick() }}>{t('header.contact')}</span>
                 <NavButton headerButton page={'projects'} text={t('header.projects')} />
                 <NavButton headerButton page={'cv'} text={'CV'} />
 
@@ -85,3 +85,6 @@ export default class Header extends BaseContainer {
     )
   }
 }
+
+// <span className='dropdown-item' onClick={() => { i18n.changeLanguage('es') }}>Español</span>
+// <span className='dropdown-item' onClick={() => { i18n.changeLanguage('pt') }}>Português</span>

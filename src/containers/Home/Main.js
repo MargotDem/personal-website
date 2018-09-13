@@ -1,4 +1,5 @@
 import React from 'react'
+import renderHTML from 'react-render-html'
 
 import BaseContainer from '../BaseContainer'
 import pic from '../../img/pic.jpg'
@@ -19,7 +20,7 @@ export default class Main extends BaseContainer {
           </span>
         </div>
         <div className='main-text'>
-          {t('home.text')}
+          {renderHTML(t('home.text'))}
         </div>
         <div className='main-photo-container'>
           <img className='main-photo' alt='me' src={pic} />
