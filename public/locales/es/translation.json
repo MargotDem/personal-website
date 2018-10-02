@@ -1,9 +1,9 @@
 {
   "home": {
-    "text": "I’m Margot, a French junior developer, business student, and foreign languages enthusiast",
-    "briefcase": "I did a “preparatory class” after high school (a demanding two-year program to prepare the entry exams to France’s top business schools) and was admitted into <a href='http://www.audencia.com/en/' target='_blank' rel='noopener noreferrer'>Audencia</a>. After my first year I did an internship in a French ”<a href='https://beta.gouv.fr/en/' target='_blank' rel='noopener noreferrer'>State startup</a>”. It was there that I discovered web development, fell in love with it, and decided to take a year off to become a developer. I am now back to school in Nantes.",
-    "code": "I started learning how to code on my own last summer, then applied to <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, a state and EU funded school / social startup. I attended their seven-month web development program (fullstack PHP), then did a two-month internship as a web developer at the startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>.",
-    "heart": "I love roller skating, reading books–especially in English, Spanish and Portuguese, crafting things and discussing social matters (from feminism to social inclusion to education). I look forward to learning new skills, studying abroad and finding my dream job, part software engineer, part project manager.",
+    "text": "Soy Margot, estudiante de negocios francesa, desarrolladora web <i>junior</i>, y aficionada de idiomas extranjeros",
+    "briefcase": "Después del gimnasio, hice una “classe préparatoire”, que es un curso exigente de dos años para preparar los exámenes de entrada de las mejores escuelas de negocios de Francia. Fui admitida en <a href='http://www.audencia.com/en/' target='_blank' rel='noopener noreferrer'>Audencia</a>. En seguida del primer año, hice unas prácticas en una “<a href='https://beta.gouv.fr/en/' target='_blank' rel='noopener noreferrer'>startup de Estado</a>” francesa. Allí descubrí el desarrollo web y decidí hacer un gap year para estudiarlo. Estoy ahora de vuelta en la escuela.",
+    "code": "Empezé a aprender a programar sola en el verano de 2017, luego solicité el ingreso en <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, una escuela y startup financiada por el Estado y la Unión Europea. Fui admitida en su programa de siete meses de desarrollamiento web (fullstack PHP/JavaScript), después hice prácticas de dos meses, trabajando de desarrolladora web en la startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>.",
+    "heart": "Me encanta patinar, leer novelas (especialmente en inglés, español y portugués), y charlar de assuntos sociales (como feminismo, inclusión social o educación). A continuación quiero aprender habilidades nuevas, estudiar en el extranjero y encontrar mi trabajo ideal, una mezcla de programación y gerencia de proyectos.",
     "seePortfolio": "Portfolio"
   },
   "header": {
@@ -12,7 +12,7 @@
     "contact": "Contacto"
   },
   "contact": {
-    "getInTouch": "Get in touch !",
+    "getInTouch": "¡Póngase en contacto!",
     "yourName": "Su nombre",
     "yourEmail": "Su correo electrónico",
     "yourMessage": "Su mensaje",
@@ -20,11 +20,11 @@
     "madeWith": "Hecho con"
   },
   "projects": {
-    "personal": "ersonal projects",
-    "contributed": "rojects I’ve contributed to",
-    "occ": "A collaborative database of all the secondary schools in France that I made for a ”State startup”",
-    "flashcardz": "A simple vocabulary learning tool",
-    "lexicode": "A tool to take and store notes on code-related topics",
-    "bt": "A language-teaching startup where I worked on the website as an intern"
+    "personal": "royectos personales",
+    "contributed": "royectos en los cuales he trabajado",
+    "occ": "Una base de datos colaborativa de todos los colégios de Francia que hice para una “startup de Estado”",
+    "flashcardz": "Una simple app para aprender listas de vocabulário",
+    "lexicode": "Una herramienta para tomar notas acerca de programación",
+    "bt": "Una startup de enseñanza de idiomas donde trabajé de desadolladora web"
   }
 }

@@ -1,30 +1,30 @@
 {
   "home": {
-    "text": "Eu sou Margot, <i>junior web developer</i>, estudante de comércio e apaixonada pelas línguas estrangeiras",
-    "briefcase": "I did a “preparatory class” after high school (a demanding two-year program to prepare the entry exams to France’s top business schools) and was admitted into <a href='http://www.audencia.com/en/' target='_blank' rel='noopener noreferrer'>Audencia</a>. After my first year I did an internship in a French ”<a href='https://beta.gouv.fr/en/' target='_blank' rel='noopener noreferrer'>State startup</a>”. It was there that I discovered web development, fell in love with it, and decided to take a year off to become a developer. I am now back to school in Nantes.",
-    "code": "I started learning how to code on my own last summer, then applied to <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, a state and EU funded school / social startup. I attended their seven-month web development program (fullstack PHP), then did a two-month internship as a web developer at the startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>.",
-    "heart": "I love roller skating, reading books–especially in English, Spanish and Portuguese, crafting things and discussing social matters (from feminism to social inclusion to education). I look forward to learning new skills, studying abroad and finding my dream job, part software engineer, part project manager.",
+    "text": "Eu sou Margot, estudante de negócios francesa, desenvolvedora web <i>junior</i>, e apaixonada por línguas estrangeiras",
+    "briefcase": "Depois do ensino médio, fiz um curso chamado “classe préparatoire”, que é um programa exigente de dois anos para preparar los exames de entrada das melhores escolas de negócios da França. Ingressei na <a href='http://www.audencia.com/en/' target='_blank' rel='noopener noreferrer'>Audencia</a>. Após o primeiro ano, fiz um estágio numa “<a href='https://beta.gouv.fr/en/' target='_blank' rel='noopener noreferrer'>startup de Estado</a>” em Paris. Foi là que me apaixonei por o desenvolvimento web e decidí fazer um <i>gap year</i> para estudá-lo. Agora estou de volta na escola.",
+    "code": "Começei a aprender a programar sozinha no verão de 2017, logo me candidatei no <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, uma escola e startup financiada pelo Estado e pela União Europeia.  Fiz o curso de desenvolvimento web (fullstack PHP/JavaScript) de sete meses, em seguida fiz um estágio de dois meses, trabalhando como desenvolvedora web na startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>.",
+    "heart": "Eu gosto de andar de patin, ler romances (especialmente em inglês, espanhol e português) e conversar de assuntos sociais (como feminismo, inclusão social o educação). O que eu espero do futuro é aprender competências novas, estudar no estrangeiro e encontrar o meu trabalho perfeito, um misto de programação e gerencia de projetos.",
     "seePortfolio": "Portfolio"
   },
   "header": {
     "projects": "Projetos",
     "language": "Língua",
-    "contact": "Contacto"
+    "contact": "Contato"
   },
   "contact": {
-    "getInTouch": "Entre em contacto!",
-    "yourName": "O seu nome",
-    "yourEmail": "O seu endereço de email",
-    "yourMessage": "A sua mensagem",
+    "getInTouch": "Entre em contato!",
+    "yourName": "Seu nome",
+    "yourEmail": "Seu endereço de email",
+    "yourMessage": "Sua mensagem",
     "send": "Mandar",
     "madeWith": "Feito com"
   },
   "projects": {
-    "personal": "ersonal projects",
-    "contributed": "rojects I’ve contributed to",
-    "occ": "A collaborative database of all the secondary schools in France that I made for a ”State startup”",
-    "flashcardz": "A simple vocabulary learning tool",
-    "lexicode": "A tool to take and store notes on code-related topics",
-    "bt": "A language-teaching startup where I worked on the website as an intern"
+    "personal": "rojetos pessoais",
+    "contributed": "rojetos nos quais hei trabalhado",
+    "occ": "Um banco de dados colaborativo de todos os colégios da França, que eu fiz para uma “startup de Estado”",
+    "flashcardz": "Uma simples app para aprender listas de vocabulário",
+    "lexicode": "Uma ferramenta para tomar notas acerca de programação",
+    "bt": "Uma startup de ensino de línguas na qual trabalhei como desenvolvedora web"
   }
 }
