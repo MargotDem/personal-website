@@ -3,8 +3,8 @@ import React from 'react'
 import BaseContainer from '../BaseContainer'
 import NavButton from '../../components/NavButton'
 import Contact from '../../components/Contact'
-import cvEn from '../../img/cv-en.png'
-import cvEnPdf from '../../img/cv-en.pdf'
+import cvFr from '../../img/cv-fr.png'
+import cvFrPdf from '../../img/cv-fr.pdf'
 
 import './styles/cv.css'
 
@@ -49,12 +49,12 @@ export default class Cv extends BaseContainer {
         </div>
 
         <div className='cv-modal-container'>
-          <img alt='cv-modal' src={cvEn} className={'cv-modal' + (showModal ? ' cv-modal-show' : '')} />
+          <img alt='cv-modal' src={cvFr} className={'cv-modal' + (showModal ? ' cv-modal-show' : '')} />
         </div>
 
         <div className='top-container cv-top'>
-          <img alt='cv' src={cvEn} className='cv-img' onClick={() => { this.handleModalClick(true) }} />
-          <a href={cvEnPdf} download='CV Margot de Maulmont' className='cv-download-button' id='cv-download-button'>
+          <img alt='cv' src={cvFr} className='cv-img' onClick={() => { this.handleModalClick(true) }} />
+          <a href={cvFrPdf} download='CV Margot de Maulmont' className='cv-download-button' id='cv-download-button'>
             <i className='fa fa-download' />
           </a>
         </div>
