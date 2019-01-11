@@ -1,5 +1,5 @@
 .projects-top-container {
-	height: 700px;
+	height: 800px;
 	color: #d0d4dd;
 	display: flex;
 	justify-content: center;
@@ -69,21 +69,21 @@
 	flex-wrap: wrap;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1333px) and (min-width: 549px) {
 	.projects-top-container {
-		height: 800px;
+		height: 1200px;
 	}
 }
 
-@media (max-width: 1024px) and (min-width: 426px) {
+@media (max-width: 548px) and (min-width: 426px) {
 	.projects-top-container {
-		height: 950px;
+		height: 1300px;
 	}
 }
 
 @media (max-width: 425px) {
 	.projects-top-container {
-		height: 1400px;
+		height: 1750px;
 	}
 
 	.projects-bottom-container {
