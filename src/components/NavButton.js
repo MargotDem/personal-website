@@ -25,18 +25,18 @@ export default class NavButton extends BaseContainer {
   }
 
   renderMe (t) {
-    let { headerButton, page, text } = this.props
-    if (headerButton) {
+    let {portfolioButton, page, text} = this.props
+    if (portfolioButton) {
       return (
-        <span className='header-link' onClick={() => { this.handleNavClick(page) }}>{text}</span>
-      )
-    }
-    return (
-      <div className='portfolio-button-container'>
+        <div className='portfolio-button-container'>
         <button className='my-button' onClick={() => { this.handleNavClick(page) }}>
           {t('home.seePortfolio')}
         </button>
       </div>
+      )
+    }
+    return (
+      <span className='header-link' onClick={() => { this.handleNavClick(page) }}>{text}</span>
     )
   }
 }

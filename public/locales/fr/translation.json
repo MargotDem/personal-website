@@ -1,9 +1,9 @@
 {
   "home": {
     "text": "C’est Margot, développeuse junior et passionnée de langues étrangères",
-    "briefcase": "Après le Bac, j’ai fait une classe préparatoire aux grandes écoles de commerce et ai intégré <a href='http://www.audencia.com' target='_blank' rel='noopener noreferrer'>Audencia</a>. Après avoir complété le cycle général, j’ai fait un stage dans une “<a href='https://beta.gouv.fr' target='_blank' rel='noopener noreferrer'>Startup d’État</a>”. C’est là que j’ai découvert le développement web, c’est rapidement devenu une passion et j’ai décidé de m’y consacrer.",
-    "code": "J’ai commencé à apprendre à coder en autodidacte à l’été 2017, puis ai candidaté à <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, école du numérique et startup sociale et solidaire. J’ai suivi une de leurs formations de développement web (fullstack PHP/JavaScript), après quoi j’ai fait un stage de deux mois comme <i>web developer</i> dans la startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>.",
-    "heart": "J’aime faire du roller, lire–notamment en anglais, espagnol et portugais, faire des choses de mes mains et discuter de problématiques sociétales (féminisme, inclusion, éducation...). J’ai hâte de monter en compétences, rencontrer de nouveaux visages et milieux, et trouver mon job idéal, à mi-chemin entre <i>software engineer</i> et <i>project manager</i>.",
+    "briefcase": "Après le Bac, j’ai fait une classe préparatoire aux grandes écoles de commerce et ai intégré <a href='http://www.audencia.com' target='_blank' rel='noopener noreferrer'>Audencia</a>. J’ai découvert le développement web à l’occasion d’un stage dans une “<a href='https://beta.gouv.fr' target='_blank' rel='noopener noreferrer'>Startup d’État</a>”. C’est devenu une passion et j’ai décidé de m’y consacrer, après avoir complété le cycle général de mon école.",
+    "code": "J’ai commencé à apprendre à coder en autodidacte à l’été 2017, puis ai suivi une formation de développement web (full-stack PHP/JavaScript) à <a href='https://simplon.co/' target='_blank' rel='noopener noreferrer'>Simplon</a>, école du numérique et startup sociale et solidaire, en 2017/2018. J’ai depuis effectué un stage de deux mois comme développeuse dans la startup <a href='https://brothertongue.com/#/' target='_blank' rel='noopener noreferrer'>Brother Tongue</a>, ainsi qu’une mission de trois mois dans la startup <a href='https://www.ovrsea.com' target='_blank' rel='noopener noreferrer'>Ovrsea</a>.",
+    "heart": "J’aime faire du roller et du skate, lire–notamment en anglais, espagnol et portugais, faire des choses de mes mains et discuter de problématiques sociétales (féminisme, inclusion, éducation...). Je souhaite monter en compétences en tant que développeuse, rencontrer de nouveaux visages et milieux, et travailler sur des projets passionnants !",
     "seePortfolio": "Portfolio"
   },
   "header": {
@@ -25,7 +25,8 @@
     "occ": "Une base de données collaborative des collèges et lycées de France, réalisée pour une startup d'État où j’ai fait un stage",
     "flashcardz": "Un outil de révision de listes de vocabulaire",
     "lexicode": "Site que j’utilise pour stocker des notes en lien avec le code",
-    "bt": "Une startup d’apprentissage de langues où j’ai fait un stage et ai travaillé sur le site",
-    "adonis": "Un boilerplate d’application web pour AdonisJs (un framework Node.js), avec un frontend React"
+    "bt": "Une startup d’apprentissage de langues où j’ai fait un stage de développement web Frontend",
+    "adonis": "Un boilerplate d’application web pour AdonisJs (un framework Node.js), avec un frontend React",
+    "ovrsea": "Un commissionnaire de transport digital chez qui j'ai travaillé pendant trois mois comme développeuse Fullstack"
   }
 }

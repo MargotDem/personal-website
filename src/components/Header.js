@@ -6,23 +6,30 @@ import i18n from '../lib/i18n'
 
 import './styles/header.css'
 
+const setHeaderStyle = (color, fontWeight) => {
+  let elements = document.getElementsByClassName('header-link')
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.color = color;
+      elements[i].style.fontWeight = fontWeight
+    }
+    document.getElementById('header-top').style.borderBottom = `solid 2px ${color}`
+}
+
+const languages = {
+  en: "English",
+  fr: "Français",
+  es: "Español",
+  pt: "Português",
+}
+
 export default class Header extends BaseContainer {
   componentDidMount () {
     this.timer = setInterval(function () {
+      let elements = document.getElementsByClassName('header-link')
       if (window.pageYOffset > 700) {
-        let elements = document.getElementsByClassName('header-link')
-        for (let i = 0; i < elements.length; i++) {
-          elements[i].style.color = '#4d628e'
-          elements[i].style.fontWeight = 'bold'
-        }
-        document.getElementById('header-top').style.borderBottom = 'solid 2px #4d628e'
+        setHeaderStyle('#4d628e', 'bold')
       } else {
-        let elements = document.getElementsByClassName('header-link')
-        for (let i = 0; i < elements.length; i++) {
-          elements[i].style.color = '#d0d4dd'
-          elements[i].style.fontWeight = 'normal'
-        }
-        document.getElementById('header-top').style.borderBottom = 'solid 2px #d0d4dd'
+        setHeaderStyle('#d0d4dd', 'normal')
       }
     }, 10)
   }
@@ -31,7 +38,7 @@ export default class Header extends BaseContainer {
     clearInterval(this.timer)
   }
 
-  handleClick () {
+  handleContactClick () {
     document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })
   }
 
@@ -64,19 +71,22 @@ export default class Header extends BaseContainer {
             </div>
             <div className='header-bottom'>
               <div className='header-bottom-content'>
-                <span className='header-link' onClick={() => { this.handleClick() }}>{t('header.contact')}</span>
-                <NavButton headerButton page={'projects'} text={t('header.projects')} />
-                <NavButton headerButton page={'cv'} text={'CV'} />
-
+                <span className='header-link' onClick={() => { this.handleContactClick() }}>{t('header.contact')}</span>
+                <NavButton page={'projects'} text={t('header.projects')} />
+                <NavButton page={'cv'} text={'CV'} />
                 <div className='dropdown'>
-                  <a className='dropdown-toggle header-dropdown header-link' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                  <a
+                    className='dropdown-toggle header-dropdown header-link'
+                    id='dropdownMenuButton' data-toggle='dropdown'
+                    aria-haspopup='true'
+                    aria-expanded='false'
+                  >
                     {t('header.language')}
                   </a>
                   <div className='dropdown-menu' aria-labelledby='dropdownMenuButton'>
-                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('en') }}>English</span>
-                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('fr') }}>Français</span>
-                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('es') }}>Español</span>
-                    <span className='dropdown-item' onClick={() => { i18n.changeLanguage('pt') }}>Português</span>
+                    {Object.keys(languages).map(lang => (
+                      <span className='dropdown-item' onClick={() => { i18n.changeLanguage(lang) }}>{languages[lang]}</span>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -87,6 +97,3 @@ export default class Header extends BaseContainer {
     )
   }
 }
-
-// <span className='dropdown-item' onClick={() => { i18n.changeLanguage('es') }}>Español</span>
-// <span className='dropdown-item' onClick={() => { i18n.changeLanguage('pt') }}>Português</span>

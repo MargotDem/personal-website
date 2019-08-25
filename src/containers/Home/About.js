@@ -53,7 +53,7 @@ export default class About extends BaseContainer {
               )
             })
           }
-          <NavButton page={'projects'} />
+          <NavButton portfolioButton page={'projects'} />
         </div>
       </div>
     )

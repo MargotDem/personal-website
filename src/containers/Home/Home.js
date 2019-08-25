@@ -18,10 +18,14 @@ export default class Home extends Component {
   componentDidMount () {
     document.title = 'Margot de Maulmont'
     this.interval = setInterval(function () {
-      document.getElementById('down-button').style.transform = 'translate(0px, 18px)'
-      this.timeout = setTimeout(function () {
-        document.getElementById('down-button').style.transform = 'translate(0px, 0px)'
-      }, 300)
+      if (document.getElementById('down-button')) {
+        document.getElementById('down-button').style.transform = 'translate(0px, 18px)'
+        this.timeout = setTimeout(function () {
+          if (document.getElementById('down-button')) {
+            document.getElementById('down-button').style.transform = 'translate(0px, 0px)'
+          }
+        }, 300)
+      }
     }, 3000)
   }
 

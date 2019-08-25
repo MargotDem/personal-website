@@ -19,10 +19,14 @@ export default class Cv extends BaseContainer {
   componentDidMount () {
     document.title = 'CV · Margot de Maulmont'
     this.interval = setInterval(function () {
-      document.getElementById('cv-download-button').style.transform = 'translate(0px, 18px)'
-      this.timeout = setTimeout(function () {
-        document.getElementById('cv-download-button').style.transform = 'translate(0px, 0px)'
-      }, 300)
+      if (document.getElementById('cv-download-button')) {
+        document.getElementById('cv-download-button').style.transform = 'translate(0px, 18px)'
+        this.timeout = setTimeout(function () {
+          if (document.getElementById('cv-download-button')) {
+            document.getElementById('cv-download-button').style.transform = 'translate(0px, 0px)'
+          }
+        }, 300)
+      }
     }, 5000)
   }
 
@@ -32,9 +36,7 @@ export default class Cv extends BaseContainer {
   }
 
   handleModalClick (showModal) {
-    this.setState({
-      showModal: showModal
-    })
+    this.setState({showModal})
   }
 
   render () {
@@ -61,7 +63,7 @@ export default class Cv extends BaseContainer {
 
         <div className='middle-container cv-bottom'>
           <div className='middle-container-wrapper cv-bottom-wrapper'>
-            <NavButton page={'projects'} />
+            <NavButton portfolioButton page={'projects'} />
           </div>
         </div>
 
