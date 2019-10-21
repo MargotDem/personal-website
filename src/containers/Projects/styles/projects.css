@@ -71,11 +71,18 @@
 	.projects-top-container {
 		height: 1200px;
 	}
+	.projects-bottom-container {
+		height: 800px;
+	}
 }
 
 @media (max-width: 548px) and (min-width: 426px) {
 	.projects-top-container {
 		height: 1300px;
+	}
+
+	.projects-bottom-container {
+		height: 750px;
 	}
 }
 
@@ -85,7 +92,7 @@
 	}
 
 	.projects-bottom-container {
-		height: 650px;
+		height: 1000px;
 	}
 
 	.projects-perso {
